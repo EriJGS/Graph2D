@@ -22,7 +22,7 @@ public class MainFrame extends javax.swing.JFrame {
 
     public MainFrame() {        
         initComponents();
-        
+
         // Instanciar el Panel
         DrawArea dib = new DrawArea();
         this.setContentPane(dib);
@@ -39,11 +39,11 @@ public class MainFrame extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 279, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGap(0, 253, Short.MAX_VALUE)
         );
 
         pack();
